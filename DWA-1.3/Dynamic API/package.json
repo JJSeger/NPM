@@ -1,0 +1,22 @@
+{
+  "name": "dynamic_api",
+  "version": "1.0.0",
+  "description": "A url shortener that uses express and node to create shorter urls",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "judd seger",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "morgan": "^1.8.1",
+    "mysql": "^2.11.1",
+    "sequelize": "^3.24.3"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "gulp": "^3.9.1"
+  }
+}
